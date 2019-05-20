@@ -1,0 +1,51 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <title>Jessica Deas- Oceanview Suites</title>
+	<link rel="stylesheet" href="css/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+	<script src="js/register.js"></script>  
+	
+  </head>
+  <body>
+<div id="wrapper">
+    <header><h1>Oceanview Suites</h1></header>
+	<h2>Register</h2>
+	<nav>
+<ul>
+ <li> <a href="home.html">Home</a></li>
+ <li> <a href="info.html">Info</a></li>
+ <li> <a href="receipt.html">Receipt</a></li>
+ <li> <a href="discount.html">Discount</a></li>
+ <li> <a href="estimate.html">Estimate</a></li>
+ <li> <a href="amentities.html">Amenities</a></li>
+ <li> <a href="register.html">Register</a></li>
+  <li> <a href="maps.html">Maps</a></li>
+      <li> <a href="special_features.html">Features</a></li>
+	   <li> <a href="feature_pricing.html">Feature Pricing</a></li>
+	   <li> <a href="contactus.php">Contact Information</a></li>
+	   <li> <a href="contactus2.php">Contact Information 2</a></li>
+</ul>
+  </nav>
+  
+  
+	<table ng-controller="registered" border>
+		<tr><th>Name</th><th>Address</th><th>Nights Staying</th><th>Room Rate</th></tr>
+		<tr ng-repeat="session in registeredppl">
+			<td>{{ session.name }}</td>
+			<td>{{ session.address }}</td>
+			<td>{{ session.nightsstaying }}</td>
+			<td>{{ session.roomrate }}</td>
+		</tr>
+	</table>
+	
+<footer>
+1520 North Ocean Blvd<br>
+Myrtle Beach, SC 29577<br>
+<a href="tel:843-555-5555">1-843-555-5555</a><br>
+Copyright &copy; 2018 Ocean View Suites<br>
+<a href="mailto:oceansuites@gmail.com">oceansuites@gmail.com</a>
+</footer>
+</div>
+  </body>
+</html>

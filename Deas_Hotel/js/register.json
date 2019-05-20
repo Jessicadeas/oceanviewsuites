@@ -1,0 +1,42 @@
+{
+	"registeredppl": [
+	   {
+			"name": "Jane Doe",
+			"address": "123 Hwy 544 Myrtle Beach, SC 29588",
+			"nightsstaying": "5",
+			"roomrate": "$125"
+		},
+			   {
+			"name": "John Doe",
+			"address": "543 Hwy 17 Georgetown, SC 29440",
+			"nightsstaying": "2",
+			"roomrate": "$133"
+		},
+			   {
+			"name": "Joey Langston",
+			"address": "6656 Hwy 501 MB, SC 29577",
+			"nightsstaying": "6",
+			"roomrate": "$120"
+		},
+			   {
+			"name": "Whitney Eli",
+			"address": "654 Dreary Lane Conway, SC 29526",
+			"nightsstaying": "5",
+			"roomrate": "$125"
+		},
+		
+			   {
+			"name": "Don Kite",
+			"address": "5445 Dwight St MB, SC 29588",
+			"nightsstaying": "6",
+			"roomrate": "$120"
+		},
+		
+			   {
+			"name": "Jerica White",
+			"address": "5437 Highmarket St Georgetown, SC 29440",
+			"nightsstaying": "5",
+			"roomrate": "$125"
+		}
+	]
+}
